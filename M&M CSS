@@ -1,0 +1,174 @@
+
+.sheet-rolltemplate-MMstrd .sheet-rolltemplate-container   {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+.sheet-rolltemplate-MMdamage .sheet-rolltemplate-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+.sheet-rolltemplate-MMvoice .sheet-rolltemplate-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+.sheet-rolltemplate-MMexertion .sheet-rolltemplate-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+
+.sheet-rolltemplate-MMpress .sheet-rolltemplate-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+.sheet-rolltemplate-MMage .sheet-rolltemplate-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 2px;
+    width: 189px;
+    font-family:"Times New Roman",Times, serif;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    line-height: 20px;
+    text-align:center;
+}
+.textarea {
+  width: 250px;
+  height: 150px;
+}
+
+/* GLOBAL SETTINGS
+    =============================  */
+* {
+  box-sizing: border-box;
+  font-family: serif; }
+
+
+button[type="roll"]::before {
+    display: none;
+}
+
+
+
+button:focus, button:hover, button:active {
+  background: none;
+  background-color: #fff !important; }
+button:focus > h2, button:hover > h2, button:active > h2 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgba(136, 121, 190, 0.25), 0 0 5px #fff; }
+button[type="roll"], button[type="action"] {
+  background-color: whitesmoke;
+  border-bottom: 0.01em solid #666;
+  border-bottom-right-radius: 0.01em;
+  border-color: #b3b3b3;
+  border-radius: 0.25em;
+  border-right: 0.02em solid #333333;
+  border-style: outset;
+  margin: 0.2em !important;
+  padding: 0.1em !important; }
+
+div {
+  background-color: transparent;
+  width: 100%; }
+
+fieldset {
+  background-color: transparent; }
+
+h1 {
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.4em; }
+  h2.sheet-label {
+    border-bottom: 0.15em solid black;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 3%; }
+
+h3 {
+  font-size: 1.25em;
+  line-height: 36px; }
+
+input[type="text"], input[type="number"] {
+  background-color: transparent;
+  border-bottom: 0.15em solid black;
+  text-align: center;
+  border-left: 0em;
+  border-radius: 0em;
+  border-right: 0em;
+  border-top: 0em;
+  height: 2.1em; }
+input::placeholder {
+  background-color: rgba(136, 121, 190, 0.25);
+  border: 0.1em dotted #79016f; }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+label {
+  margin-bottom: 0px;
+  padding-right: 0px; }
+
+span {
+  word-break: break-word; }
+
+textarea {
+  text-align: left;
+  border-bottom: 0.2em;
+  font-size: 12px;
+  font-weight: normal;
+  height: 50px;
+  line-height: 18px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding: 2px;
+  resize: vertical;
+  vertical-align: top;
+  white-space: pre-line; }
+
+input[type="text"], input[type="number"] {
+	font-size: 14px;
+	font-family:serif;
+	-moz-appearance: textfield;    
+	-webkit-appearance: textfield;
+}
+
+.charsheet {
+  min-width: 30em; }
